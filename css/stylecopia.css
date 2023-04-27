@@ -1,0 +1,66 @@
+:root{
+    --fuentePrincipal: 'PT Sans Caption', sans-serif;
+    --Fondos1: rgb(247, 247, 16);
+    --Textos1: red;
+    --fondos2: rgba(247, 150, 227, 0.895);
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+*, *:before, *:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+a{
+    text-decoration: none;
+}
+li {
+    list-style: none;
+}
+span {
+    font-family: var(--fuentePrincipal);
+    color: var(--Textos1);
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: var(--fuentePrincipal);
+}
+.header{
+
+    background-image: url(../img/header.png);
+    background-size: cover;
+    padding: 4rem;
+    text-align: center;
+    font-family: var(--fuentePrincipal);
+    font-size: 2rem;
+
+}
+
+.titulo{
+    color: var(--Textos1);
+}
+.navegacion{
+    background-color: var(--Fondos1);
+    font-family: var(--fuentePrincipal);
+    font-size: 2rem;
+    padding: 1rem 0;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+
+}
+.footer{
+    background-color: aquamarine;
+}
+
+.bg-color {
+    background-color: var(--fondos2);
+}
+
+.carousel-item{
+    object-fit: contain;
+    align-items: center;
+}

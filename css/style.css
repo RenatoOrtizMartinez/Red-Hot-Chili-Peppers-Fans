@@ -1,66 +1,96 @@
-:root{
-    --fuentePrincipal: 'PT Sans Caption', sans-serif;
-    --Fondos1: rgb(247, 247, 16);
-    --Textos1: red;
-    --fondos2: rgba(247, 150, 227, 0.895);
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
 }
 
-html {
-    box-sizing: border-box;
-    font-size: 62.5%;
-}
 *, *:before, *:after {
-    margin: 0;
-    padding: 0;
-    box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
 }
-a{
-    text-decoration: none;
+
+a {
+  text-decoration: none;
 }
+
 li {
-    list-style: none;
+  list-style: none;
 }
+
 span {
-    font-family: var(--fuentePrincipal);
-    color: var(--Textos1);
+  font-family: "PT Sans Caption", sans-serif;
+  color: red;
 }
 
 h1, h2, h3, h4, h5 {
-    font-family: var(--fuentePrincipal);
-}
-.header{
-
-    background-image: url(../img/header.png);
-    background-size: cover;
-    padding: 4rem;
-    text-align: center;
-    font-family: var(--fuentePrincipal);
-    font-size: 2rem;
-
+  font-family: "PT Sans Caption", sans-serif;
 }
 
-.titulo{
-    color: var(--Textos1);
+.header {
+  background-image: url(../img/header.png);
+  background-size: cover;
+  padding: 4rem;
+  text-align: center;
+  font-family: "PT Sans Caption", sans-serif;
+  font-size: 2rem;
 }
-.navegacion{
-    background-color: var(--Fondos1);
-    font-family: var(--fuentePrincipal);
-    font-size: 2rem;
-    padding: 1rem 0;
-    display: flex;
-    justify-content: center;
-    gap: 2rem;
 
+.footer {
+  background-color: aquamarine;
 }
-.footer{
-    background-color: aquamarine;
+
+.navegacion {
+  background-color: rgb(247, 247, 16);
+  font-family: "PT Sans Caption", sans-serif;
+  font-size: 2rem;
+  padding: 1rem 0;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.card-block {
+  font-size: 1em;
+  position: relative;
+  margin: 0;
+  padding: 1em;
+  border: none;
+  border-top: 1px solid rgba(34, 36, 38, 0.1);
+  box-shadow: none;
+}
+
+.card {
+  font-size: 1em;
+  overflow: hidden;
+  padding: 5;
+  border: none;
+  border-radius: 0.28571429rem;
+  box-shadow: 0 1px 3px 0 #d4d4d5, 0 0 0 1px #d4d4d5;
+  margin-top: 20px;
 }
 
 .bg-color {
-    background-color: var(--fondos2);
+  background-color: rgba(247, 150, 227, 0.895);
 }
 
-.carousel-item{
-    object-fit: contain;
-    align-items: center;
+.bg-color {
+  background-color: rgba(247, 150, 227, 0.895);
 }
+
+.bg-color {
+  background-color: rgba(247, 150, 227, 0.895);
+}
+
+.titulo {
+  color: red;
+}
+
+.bg-color {
+  background-color: rgba(247, 150, 227, 0.895);
+}
+
+.bg-color {
+  background-color: rgba(247, 150, 227, 0.895);
+}
+
+/*# sourceMappingURL=style.css.map */
